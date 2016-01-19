@@ -1,3 +1,9 @@
+.negro{
+  color: black;
+}
+a:hover{
+  color: black;
+}
 .flexslider, .flexslider-controls {
   width: 100%;
 }
@@ -34,6 +40,24 @@
   display: block;
 }
 
+.slide_title h1{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 48px;
+  font-stretch:expanded;
+  margin-top:200px;
+}
+
+#galeria_2_sub{
+  color: #FFFFFF;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 48px;
+  font-stretch:expanded;
+}
+
 .slide_byline h2{
   color: #ffffff;
   font-size: 18px;
@@ -52,6 +76,38 @@
 
 #uno{
   margin-top: 260px;
+}
+
+/*** IMAGEN 3***/
+.slide_text_left {
+  top:0;
+  color: rgba(0,0,0,1);
+  display: block;
+  left: 0;
+  padding: 1em;
+  position: absolute;
+  width: 100%;
+  zoom: 1;
+  margin-top: 100px;
+  margin-left: -400px;
+  display: block;
+}
+#xd{
+  text-align: left;
+  margin-left: 500px;
+  float: left;
+}
+#x3{
+  margin-left:1350px;
+  width: 250px;
+}
+#xd h1{
+  font-size: 40px;
+  font-weight: 100;
+  font-stretch:expanded;
+}
+#galeria_3_sub1{
+
 }
 
 /* Minified FlexSlider CSS with Chrome fix */

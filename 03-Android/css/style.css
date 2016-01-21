@@ -152,16 +152,6 @@ article{
   cursor: pointer;
   height: 235px;
 }
-/*
-.zoom img{
-  width: 200px;
-  height: auto; 
-}
-
-#section_2 #art_2 img{
-  width: 200px;
-}
-*/
 
 #fondo_monos{
   background-image: url(../img/wear3-1600.png);
@@ -415,32 +405,6 @@ article{
 #icon-blogger2:hover{
   color: rgb(255, 102, 0);
 }
-/*** Slider ***/
-/**
-.slide_text {
-  background-color: transparent;
-  background-color: rgba(0, 0, 0, 0.5);
-  bottom: 0;
-  color: #fff;
-  display: block;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
-  left: 0;
-  padding: 1em;
-  position: absolute;
-  width: 100%;
-  zoom: 1;
-}
-
-.slide_title {
-  font-size: 1.2em;
-  text-transform: uppercase;
-}
-
-.slide_byline {
-	font-size: 0.8em;
-  display: block;  
-}
-*/
 #ready_for_you{
   margin-top: 15px;
   height: 400px;
@@ -661,4 +625,84 @@ nav ul li a:hover, #lupa:hover{
 .sub_menu_info_abajo ul li a:hover{
   cursor: pointer;
   color: #6ab344;
+}
+
+/*** SLIDER ***/
+input[type="radio"] { display: none; }
+input[type="radio"]:checked + section { display: block; }
+.container {
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 600px;
+}
+.container section {
+  display: none;
+  height: 100%;
+  padding: 15px 0px;
+  background: #449df5;
+  color: #fff;
+  text-align: center;
+}
+.container section h1 {
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+}
+.container section p {
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.container section label {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.5em;
+  bottom: 0;
+}
+.container section label:nth-child(odd) { right: 120px; }
+.container section label:nth-child(even) { left: 120px; }
+.container section > i {
+  font-size: 6em !important;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#slider_img_1{
+  background-image: url(../img/spotlight-stories-1600.jpg);
+  width: 100%;
+  height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slider_img_2{
+  background-image: url(../img/version-1600.jpg);
+  width: 100%;
+  height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slider_img_3{
+  background-image: url(../img/nexus-1600.jpg);
+  width: 100%;
+  height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slider_img_4{
+  background-image: url(../img/ready_for_you.png);
+  width: 100%;
+  height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

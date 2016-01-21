@@ -4,16 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Android</title>
-	<link rel="stylesheet" href="css/flexslider.css" media="screen">
-	<link rel="stylesheet" href="css/flexslider_2.css">
-	<link rel="stylesheet" href="css/fonts/flexslider-icon.ttf">
-	<link rel="stylesheet" href="css/fonts/flexslider-icon.woff">
 	<link rel="stylesheet" href="css/fonts/style.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/script.js"></script>
-	<script src="js/modernizr.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -56,66 +51,54 @@
 				<li><a href="">Android Open Source Project</a></li>
 			</ul>
 		</div>
-		<section id="section_1">
-			<article class="contentSlider">
-				<div class="flexslider">
-					<ul class="slides">
-						<li>
-							<img src="img/spotlight-stories-1600.jpg">
-							<div class="slide_text">
-					        	<div class="slide_title">
-									<img src="img/spotlight-stories-logo.png" id="img_1">
-					        	</div>
-					        	<div class="slide_byline" id="uno">
-					        		<a>
-					        			<h2>Watch Santa make a</h2>
-					        			<h2><span>#SpecialDelivery</span> in this 360° story.</h2>
-					        		</a>
-					        		<div>
-					        			<a class="link_btn">LEARN MORE</a>
-					        		</div>
-					        	</div>
-					        </div>
-						</li>
-						<li>
-							<img src="img/version-1600.jpg">
-							<div class="slide_text">
-					        	<div class="slide_title">
-									<h1>Android 6.0 Marshmallow</h1>
-									<h2 id="galeria_2_sub">S'More to Love</h2>
-									<a class="link negro_hover">LEARN MORE</a>
-					        	</div>
-					        </div>
-						</li>
-						<li>
-							<img src="img/nexus-1600.jpg">
-							<div class="slide_text_left" id="galeria_3_sub1">
-					        	<div id="xd">
-									<h1 class="negro" class="title_3">The Nexus 5X</h1>
-									<h1 class="negro" class="title_3">and 6P</h1>
-									<p class="negro">The ultimate Android experiencie.</p>
-									<div>
-										<a class="link negro_hover">SHOP NOW</a>
-									</div>
-					        	</div>
-					        	<div id="x3">
-									<p class="negro">If you're in the market for Android phone, you've run out of excuses not to get a Nexus.</p>
-									<div>
-										<a class="link negro_hover">Ars Technica</a>
-									</div>
-					        	</div>
-					        </div>
-						</li>
-						<li id="cuarta_img">
-							<img src="img/ready_for_you.png" alt="" id="ready_for_you">
-							<div>
-								<a class="link">LEARN MORE</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</article>
-		</section>
+		<div id="section_1">
+			<div class="container">
+			  <input id="rad1" type="radio" name="rad" checked>
+			  <section id="slider_img_1">
+			  	<img src="img/spotlight-stories-logo.png">
+			    <h1>Watch Santa make a</h1>
+    			<h1><span>#SpecialDelivery</span> in this 360° story.</h1>
+			    <div><a class="link_btn">LEARN MORE</a></div>
+			    <label for="rad3"><i class="fa fa-chevron-left"></i></label>
+			    <label for="rad2"><i class="fa fa-chevron-right"></i></label>
+			  </section>
+			  <input id="rad2" type="radio" name="rad">
+			  <section id="slider_img_2">
+			  	<div>
+				    <h1>Android 6.0 Marshmallow</h1>
+					<h2>S'More to Love</h2>
+					<a class="link negro_hover">LEARN MORE</a>
+			  	</div>
+			    <label for="rad1"><i class="fa fa-chevron-left"></i></label>
+			    <label for="rad3"><i class="fa fa-chevron-right"></i></label>
+			  </section>
+			  <input id="rad3" type="radio" name="rad">
+			  <section id="slider_img_3">
+			  	<div id="xd">
+					<h1 class="negro" class="title_3">The Nexus 5X</h1>
+					<h1 class="negro" class="title_3">and 6P</h1>
+					<p class="negro">The ultimate Android experiencie.</p>
+					<div>
+						<a class="link negro_hover">SHOP NOW</a>
+					</div>
+	        	</div>
+	        	<div id="x3">
+					<p class="negro">If you're in the market for Android phone, you've run out of excuses not to get a Nexus.</p>
+					<div>
+						<a class="link negro_hover">Ars Technica</a>
+					</div>
+	        	</div>
+			    <label for="rad2"><i class="fa fa-chevron-left"></i></label>
+			    <label for="rad4"><i class="fa fa-chevron-right"></i></label>
+			  </section>
+			  <input id="rad4" type="radio" name="rad">
+			  <section id="slider_img_4">
+			    <a class="link">LEARN MORE</a>
+			    <label for="rad3"><i class="fa fa-chevron-left"></i></label>
+			    <label for="rad1"><i class="fa fa-chevron-right"></i></label>
+			  </section>
+			</div>
+		</div>
 		<div class="control"></div>
 		<section id="section_2">
 			<article id="art_1">

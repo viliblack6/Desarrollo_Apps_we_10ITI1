@@ -1,11 +1,4 @@
 $(document).ready(function(){
-	$('.flexslider').flexslider({
-		animation: "slide",
-		manualControls: ".flex-control-nav li",
-  		useCSS: false
-	});
-
-	// Menu scroll
 	var nav = $('#menu');
 	pos = nav.offset();	 
 	// Esperamos al DOM

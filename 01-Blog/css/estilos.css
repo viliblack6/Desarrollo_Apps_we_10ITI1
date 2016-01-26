@@ -63,6 +63,6 @@ footer{
 @media (max-width: 500px) {
   	section{ width: 100%; padding: 10px 0; }
 	nav ul li{ display: block; border-bottom: solid 1px skyblue; border-top: solid 1px skyblue; }
-	nav ul li:hover a{ cursor: pointer; color: rgba(255,255,255,1);
-	}
+	nav ul li:hover a{ cursor: pointer; color: rgba(255,255,255,1);}
 	aside{display: none;}
+}

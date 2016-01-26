@@ -1,0 +1,229 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial,Helvetica,sans-serif;
+}
+body{
+	margin: 0 auto;
+}
+h1, p, a, img, button{
+	margin-top: 15px;
+}
+h1{
+	font-size: 38px;
+    line-height: 1.2em;
+    color: #4d4d4d;
+}
+p{
+	font-size: 21px;
+	font-weight: 300;
+    line-height: 1.44em;
+    color: #fff;
+}
+header, section, footer{
+	padding: 100px 0px;
+	text-align: center;
+}
+header p{
+	color: #4d4d4d;
+    font-weight: 300;
+    line-height: 1.44em;
+}	
+header a{
+	font-family: sans-serif;
+	font-size: 22px;
+	color: #999;
+	padding: 1em 2em;
+}
+section{
+	display: inline-block;
+	width: 100%;
+}
+article{
+	margin: 0 auto;
+	text-align: center;
+}
+header, section, footer{
+	padding: 100px 0px;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	padding: 60px 0px;
+}
+footer p{
+	font-size: 16px;
+}
+span{
+	font-weight: bold;
+}
+button{
+	padding: 10px 15px;
+	background-color: rgba(0, 223, 56, 1);
+	border: solid 1px rgba(0, 223, 56, 1);
+	border-radius: 5px;
+	color: #fff;
+	font-family: verdana;
+	font-size: 19px;
+	font-weight: bold;
+	background: #61bd4f;
+    box-shadow: 0 2px 0 #3f6f21;
+}
+.marcas{
+	margin: 20px;
+}
+.fondo_azul{
+	background: #0079bf;
+}
+.azul_claro{
+	background: #e4f0f6;
+}
+.txt_gris p{
+	color: #4d4d4d;
+}
+.fondo_morado{
+	background-color: #42548e;
+}
+.link{
+	margin: 0px 10px;
+	font-family: verdana;
+	font-size: 16px;
+	color: #999;
+}
+.link_btn{
+	border:solid 1px #5e98ba;
+    border-radius: .3em;
+    display: inline-block;
+    margin: .6em 0;
+    padding: .6em 1em;
+    text-decoration: none;
+	font-family: verdana;
+	font-size: 19px;
+	color: #5e98ba;
+}
+.titulo_header{
+	width:69%;
+	margin: 0 auto;
+}
+.parrafo_header{
+	width:45%;
+	margin: 0 auto;
+}
+.capa_45{
+	width:45%;
+	margin: 0 auto;
+	text-align: center;
+}
+#img_card_details{
+	width: 70%;
+	height: auto;
+}
+.margin_170{
+	margin: 0px 170px;
+}
+.width_60{
+	width: 60%;
+	display: inline;
+	float:left;
+}
+#img_home_hero{
+	width: 80%;
+	height: auto;
+}
+.width_40{
+	width: 40%;
+	float:left;
+}
+#img_home_devices{
+	width: 90%;
+	height: auto;
+}
+.capa_40{
+	width: 40%;
+	display: inline;
+	float:left;
+}
+#margin_400{
+	margin: 0px 400px;
+}
+#margin_300{
+	margin: 0px 300px;
+}
+#texto_taco{
+	width: 60%;
+	display: inline;
+	float:left;
+	text-align:left;
+	margin-top: 60px;
+}
+#width_80{
+	width:80%;
+}
+#section_taco{
+	width: 100%;
+	padding: 20px 0px;
+}
+#margin_10{
+	margin-top:-10px;
+}
+#link_capa_morado{
+	border: solid 1px white;
+	color: white;
+}
+
+@media (max-width: 1200px) {
+	header, section, footer{ padding: 50px 0px; text-align: center; }
+	#img_card_details{ width: 80%; height: auto; }
+	.margin_170{ margin: 0px 120px; width: calc(100% -60%); }
+	#margin_400{ margin: 0px 200px; }
+	footer{ width: calc(100% - 20px); margin: 0; padding: 50px 0px; }
+	#margin_300{ margin: 0; padding: 0; }
+	.capa_40{ width: 50%; display: inline; }
+	#texto_taco{ width: 50%; display: inline; text-align:left; margin-top: 60px; }
+	.width_60{ width: 50%; display: inline; }
+	.capa_40{ width: 50%; display: inline; }
+}
+@media (max-width: 1024px) {
+	#img_card_details{ width: 80%; height: auto; }
+	.margin_170{ margin: 0px 120px; width: calc(100% -60%); }
+	#margin_400{ margin: 0px 200px; }
+	footer{ margin: 0; padding: 50px 0px;}
+	.capa_40{ width: 50%; display: inline; }
+	#texto_taco{ width: 50%; display: inline; text-align:left; margin-top: 60px; }
+	.width_60{ width: 50%; display: inline;}
+	.capa_40{ width: 50%; display: inline; }
+}
+@media (max-width: 900px) {
+	#img_home_devices{ width: 300px; height: auto; margin: 0; padding: 0; }
+	.width_40{ width: 100%; }
+	#width_80{ width:100%; margin-left: 150px; }
+	.width_60{ width: 100%; }
+	.width_40 img{ width: 400px; }
+	.margin_170{ margin: 0px 70px; }
+	#margin_300{ margin: 0px; }
+	#margin_400{ margin: 0; padding: 0; }
+	img{ text-align: center; }
+	.margin_170{ width: 100%; margin: 0; padding: 0; }
+	.capa_45{ width: 100%; margin: 0; padding: 0; }
+	footer{ margin: 0; padding: 0; }
+	#section_taco{ margin: 0; padding: 0; }
+	section article{ margin: 0; padding: 0; }
+}
+@media (max-width: 700px) {
+	header, section, footer{ padding: 50px 0px; text-align: center; }
+	.parrafo_header{ text-align: center; }
+	.titulo_header, .parrafo_header, .titulo_header img, #img_card_details, #img_home_devices{ width: 100%; }
+}
+@media (max-width: 500px) {
+	header, section, footer{ padding: 25px 0px; }
+	h1{ font-size: 30px; }
+	#capa_40, #texto_taco{ width: 100%; }
+	.marcas{ width: 45%; margin: 5px; display: inline-line;}
+	img, #img_home_devices{ width: 200px; }
+	.capa_40{ width: 100%; }
+	.width_40 img, .width_60 img{ width: 200px; }
+	#width_80{ padding: 0; margin: 0; }
+	.titulo_header{ width: 100%; }
+	#img_card_details, #img_home_devices, #home_power img, .titulo_header img{ width: 100%; }
+	#texto_taco{ width: 100%; text-align:center; margin-top: 10px; }
+}

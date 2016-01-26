@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 body{
@@ -136,17 +136,17 @@ article{
   height: 185px;
 }
 #zoom_5{
-  width: 40%;
-  *border: solid 1px red;
+  display: inline-block;
+  width: 470px;
+  height: 385px;
+  background: url(../img/auto-on.jpg) 0 -150px;
+  display:inline-block;
+  vertical-align: top;
+  margin-top: -200px; 
 }
-#img_5{
-  width: auto;
-  height: 220px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
+#zoom_5 label{
+  position: absolute;
+  margin-top:385px;
 }
 #img_5:hover{
   cursor: pointer;

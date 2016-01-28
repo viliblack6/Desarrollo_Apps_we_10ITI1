@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Android</title>
 	<link rel="stylesheet" href="css/fonts/style.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -11,20 +10,43 @@
 	<script src="js/script.js"></script>
 </head>
 <body>
-	<div class="">
+	<div class="wrapper">
 		<header>
 			<nav id="menu">
-				<img src="img/android-wordmark-8EC047.png" alt="" class="logo">
+				<img src="img/android-wordmark-8EC047.png" alt="" class="logo li_header">
 				<ul>
-					<li><a id="discover">DISCOVER <span class="icon-caret"></span></a></li>
-					<li><a id="devices">DEVICES <span class="icon-caret"></span></a></li>
-					<li><a>PLAY</a></li>
-					<li><a>PAY</a></li>
-					<li><a id="more">MORE <span class="icon-caret"></span></a></li>
-					<li><a><span class="icon-search" id="lupa"></span></a></li>
+					<li id="menu_icon_menu"><a><span class="icon-menu" id="icon_menu"></span></a></li>
+					<li id="menu_logo2"><a><img src="img/android-wordmark-8EC047.png" alt="" class="logo" id="logo2"></a></li>
+					<li class="li_header"><a id="discover">DISCOVER <span class="icon-caret"></span></a></li>
+					<li class="li_header"><a id="devices">DEVICES <span class="icon-caret"></span></a></li>
+					<li class="li_header"><a>PLAY</a></li>
+					<li class="li_header"><a>PAY</a></li>
+					<li class="li_header"><a id="more">MORE <span class="icon-caret"></span></a></li>
+					<li id="menu_lupa"><a><span class="icon-search" id="lupa"></span></a></li>
 				</ul>
 			</nav>
 		</header>
+		<div id="menu_lateral" class="menu_lateral">
+			<ul>
+				<li id="li_menu_lateral"><a href="#"><img src="img/android-wordmark-ffffff.png" alt="" id="logo_menu_lateral"></a></li>
+				<li><a href="#">Android Story</a></li>
+				<li><a href="#">Marshmallow</a></li>
+				<li><a href="#">Switch to Android</a></li>
+				<li><a href="#">Android for Work</a></li>
+				<li><a href="#">Security</a></li>
+				<li><a href="#">Phones</a></li>
+				<li><a href="#">Tablets</a></li>
+				<li><a href="#">Wear</a></li>
+				<li><a href="#">TV</a></li>
+				<li><a href="#">Auto</a></li>
+				<li><a href="#">Play</a></li>
+				<li><a href="#">Pay</a></li>
+				<li><a href="#">Adroid One</a></li>
+				<li><a href="#">Android M Developer</a></li>
+				<li><a href="#">Android Developer Resources</a></li>
+				<li><a href="#">Android Open Source Project</a></li>
+			</ul>
+		</div>
 		<div class="sub_menu_imagenes" id="sub_menu_discover">
 			<ul>
 				<li><a href="" id="sub_menu_discover_img_1" class="sub_menu_img"><span>Android Story</span></a></li>
@@ -55,12 +77,12 @@
 			<div class="container">
 			  <input id="rad1" type="radio" name="rad" checked>
 			  <section id="slider_img_1">
-			  	<img src="img/spotlight-stories-logo.png">
+			  	<img src="img/spotlight-stories-logo.png" id="img_lampara">
 			    <h1>Watch Santa make a</h1>
     			<h1><span>#SpecialDelivery</span> in this 360° story.</h1>
 			    <div><a class="link_btn">LEARN MORE</a></div>
-			    <label for="rad3"><i class="fa fa-chevron-left"></i></label>
 			    <label for="rad2"><i class="fa fa-chevron-right"></i></label>
+			    <label for="rad3"><i class="fa fa-chevron-left"></i></label>
 			  </section>
 			  <input id="rad2" type="radio" name="rad">
 			  <section id="slider_img_2">
@@ -88,8 +110,8 @@
 						<a class="link negro_hover">Ars Technica</a>
 					</div>
 	        	</div>
-			    <label for="rad2"><i class="fa fa-chevron-left"></i></label>
 			    <label for="rad4"><i class="fa fa-chevron-right"></i></label>
+			    <label for="rad2"><i class="fa fa-chevron-left"></i></label>
 			  </section>
 			  <input id="rad4" type="radio" name="rad">
 			  <section id="slider_img_4">
@@ -108,23 +130,22 @@
 			<article id="art_2">
 				<div class="zoom" id="zoom_1">
 					<img src="img/wear-on.jpg" alt="" id="img_1">
-					<label>ANDROID WEAR</label>
+					<p>ANDROID WEAR</p>
 				</div>
 				<div class="zoom" id="zoom_2">
 					<img src="img/nexus6-on.jpg" alt="" id="img_2">
-					<label>PHONES</label>
+					<p>PHONES</p>
 				</div>
 				<div class="zoom" id="zoom_3">
 					<img src="img/nexus9-on.jpg" alt="" id="img_3">
-					<label>TABLETS</label>
+					<p>TABLETS</p>
 				</div>
 				<div class="zoom" id="zoom_4">
 					<img src="img/tv-on.jpg" alt="" id="img_4">
-					<label>ANDROID TV</label>
+					<p>ANDROID TV</p>
 				</div>
 				<div class="zoom" id="zoom_5">
-					<!--<img src="img/auto-on.jpg" alt="" width="50%" id="img_5" >-->
-					<label>ANDROID AUTO</label>
+					<p>ANDROID AUTO</p>
 				</div>
 			</article>
 		</section>
@@ -185,7 +206,7 @@
 						</div>
 					</div>
 				</div>
-				<div id="contenido_info_2">
+				<div id="contenido_info_2" class="contenido_info">
 					<div class="bloque">
 						<div class="info_imagen">
 							<img src="img/more-from-4.png" alt="">
@@ -249,11 +270,11 @@
 			<nav id="menu_footer">
 				<ul>
 					<li><a><img src="img/googlelogo_dark_color_92x30dp.png" alt=""></a></li>
-					<li><a>Versions <span class="icon-caret"></span></a></li>
-					<li><a>For developers <span class="icon-caret"></span></a></li>
-					<li><a>Blog</a></li>
-					<li><a>Privacy Policy</a></li>
-					<li><a href="" >
+					<li class="li_footer"><a>Versions <span class="icon-caret"></span></a></li>
+					<li class="li_footer"><a>For developers <span class="icon-caret"></span></a></li>
+					<li class="li_footer"><a>Blog</a></li>
+					<li class="li_footer"><a>Privacy Policy</a></li>
+					<li>
 						<select name="" id="idioma">
 							<option value="">Australia - English</option>
 							<option value="">Brasil - Português</option>
@@ -272,7 +293,7 @@
 							<option value="" selected>United States - English</option>
 							<option value="">Hong Kong SAR China - English</option>
 						</select>
-					</a></li>
+					</li>
 				</ul>
 			</nav>
 		</footer>
